@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+</script>
+
 <template>
-  <div id="app">
-    <h1>Mony Wallet</h1>
-    <span>This is a demo of the Mony Wallet AI</span>
-  </div>
+  <main>
+    <RouterView />
+  </main>
 </template>
+
+<style scoped></style>
